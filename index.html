@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sondage: Anass vs Gautier</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sondage: Qui préférez-vous?</h1>
+    </header>
+    <main>
+        <div class="candidate" id="anass">
+            <h2>Anass</h2>
+            <img src="images/anass.jpg" alt="Photo de Anass" class="candidate-img">
+            <p>Pourquoi voter pour Anass :</p>
+            <ul>
+                <li>Argument 1 pour Anass</li>
+                <li>Argument 2 pour Anass</li>
+                <li>Argument 3 pour Anass</li>
+            </ul>
+            <button onclick="vote('Anass')">Voter pour Anass</button>
+        </div>
+        <div class="candidate" id="gautier">
+            <h2>Gautier</h2>
+            <img src="images/gautier.jpg" alt="Photo de Gautier" class="candidate-img">
+            <p>Pourquoi voter pour Gautier :</p>
+            <ul>
+                <li>Argument 1 pour Gautier</li>
+                <li>Argument 2 pour Gautier</li>
+                <li>Argument 3 pour Gautier</li>
+            </ul>
+            <button onclick="vote('Gautier')">Voter pour Gautier</button>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sondage Anass vs Gautier</p>
+    </footer>
+</body>
+</html>
